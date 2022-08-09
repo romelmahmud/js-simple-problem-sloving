@@ -92,24 +92,52 @@ for (let k = 10; k >= 1; k--) {
 কি নবে , ৪০ হাজার টাকার বেশি হলে lenovo yoga কম্পিউটার কিনবে , ২০ হাজার টাকার বেশি হলে পুরান
 ল্যাপটপ কিনবে । না হয় তুমি ম োবাইল দিয়ে কাজ চালাবে ।
  */
+const budget = 40000;
+if (budget > 80000) {
+  console.log("I will buy Macbook");
+} else if (budget > 60000) {
+  console.log("I will buy a Gaming laptop");
+} else if (budget > 40000) {
+  console.log("I will buy a Gaming laptop");
+} else if (budget > 20000) {
+  console.log("I will buy a Old laptop");
+} else {
+  console.log("I will work on Mobile Phone");
+}
 
 //* Problem 17
 /*
 আসকে আমার মন ভাল ো নেই এই কথা ৩৯ বার আউটপুট হিসেবে দেখাও।
+
+
  */
+
+for (let i = 0; i < 40; i++) {
+  console.log("Ajk amr mon valo nei");
+}
 
 //* Problem 18
 /*
 while লুপ কি ভাবে কাজ করে
+
  */
+// while loop will run untill the condition is true
 
 //* Problem 19
 /*
 একটা ক োড লিখে ৫৮ থে কে ৯৮ পর্যন্ত যত সংখ্যা আছে সে গুলাকে দে খাও
  */
+for (let i = 58; i < 98; i++) {
+  console.log(i);
+}
 
 //* Problem 20
 /*
 একটা ক োড লিখে ৪১২ থে কে ৪৫৬ পর্যন্ত যত জ োর সংখ্যা আছে সে গুলাকে
 দে খাও
  */
+for (let i = 412; i <= 456; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
